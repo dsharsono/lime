@@ -29,7 +29,7 @@ do
   fi
 done
 
-pybin="python"
+pybin="python3"
 pyconf="$pybin-config"
 command -v $pyconf >/dev/null 2>&1 || ! echo "oops" || exit 3
 
